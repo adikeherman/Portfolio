@@ -1,7 +1,102 @@
- section1 img {
-    width: 100%;
-
-}
 *{
-    background-color: beige;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
 }
+
+body{
+    background: black;
+}
+
+nav{
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15rem;
+    height: 10vh;
+}
+
+.logo div{
+    width: 4rem;
+    height: 3.5rem;
+    /* border-radius: 50%; */
+    background: url(../img/img.jpg);
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero{
+    position: relative;
+    height: 100vh;
+}
+
+.hero img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(25%);
+}
+
+.hero-text{
+    position: absolute;
+    font-size: larger;
+    top: 50%;
+    left: 55%;
+    transform: translate(-150%, -50%);
+}
+
+button{
+    background: transparent;
+    border: 2px solid white;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+.links a{
+    margin-right: 1rem;
+    font-size: small;
+}
+.more {
+    position: absolute;
+    font-size: medium;
+    top: 60%;
+    left: 65%;
+    transform: translate(-150%, -50%);
+}
+.herobutton {
+    position: absolute;
+    font-size: medium;
+    top: 70%;
+    left: 40%;
+    transform: translate(-150%, -50%);
+    
+}
+.herobutton button{
+    background-color: rgb(60, 139, 7);
+    color: rgb(251, 247, 247);
+    font-size: larger;
+}
+.mypic {
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    transform: translate(-150%, -50%);
+    
+}
+.herobutton2 {
+    position: absolute;
+    font-size: medium;
+    top: 80%;
+    left: 25%;
+    transform: translate(-150%, -50%);
+    
+}
+
